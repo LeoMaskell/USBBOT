@@ -3,7 +3,7 @@ title: "USBBOT"
 github: "https://github.com/LeoMaskell/USBBOT"
 description: "custom usb logic analyser"
 created_at: "2026-10-04"
-total_time: "7h"
+total_time: "8h 30m"
 ---
 
 # October 15, 2026: desigbned the schematic for the PCB with kicad!
@@ -50,3 +50,24 @@ turns out that rp2040 has internal 216kb of ram baked into it
 - its really hard to do a custom PCB that works without a prebuilt dev board😭😭😭
 
 **Total time spent: 4h 30m**
+
+# November 13, 2026 (entry 2): started the second version of the pcb
+<!-- fabricate:entry 2939 -->
+
+## started routing the second version of the pcb
+![](https://fabricate.hackclub-assets.com/8de478b06d074a56bbfa95c5fc10bbdc18c186b8a73012f9409f20391db6954d/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/f4c689325c4ba211d55f229b7eb07ccd7858386deed53a369fe11e41757d79a3/image-png/image.png)
+## good stuff about it:
+- has all the important components hidden behind the lcd
+- sleeker form factor
+- no silkscreens
+- mounting holes in the right place
+- right type of capacitors
+
+## bad stuff:
+- crystal oscillator might be too tall to be hidden behind the lcd
+- no silkscreens
+- DRC shows 18 errors and too many warnings
+![](https://fabricate.hackclub-assets.com/b81731f68aac37d03a73d6b41f42f7483a255e92eb4be03decfb432db9422858/image-png/image.png)
+
+**Total time spent: 1h 30m**
